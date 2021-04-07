@@ -1,0 +1,40 @@
+body {
+    background: #4568cb;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.sign_up_form, .sign_in_form {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 3px black;
+    background: white;
+}
+
+
+.main_image_box {
+    margin-top: 200px;
+}
+
+.main_image {
+    height: auto;
+    width: 50vw;
+}
+
+figcaption {
+    color: white;
+}
+
+.alert_container {
+    max-width: 50vw;
+    margin: 100px auto -100px;
+}
+
+#sign_in_error_alert, #sign_up_error_alert, #signed_in_alert {
+    display: none;
+}
+
